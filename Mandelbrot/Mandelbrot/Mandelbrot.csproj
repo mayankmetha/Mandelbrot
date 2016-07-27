@@ -36,9 +36,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="BaseTwoLogConverter.cs" />
     <Compile Include="BitmapInfo.cs" />
+    <Compile Include="BooleanNegationConverter.cs" />
     <Compile Include="Complex.cs" />
     <Compile Include="MandelbrotModel.cs" />
+    <Compile Include="MandelbrotViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
