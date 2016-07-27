@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="clr-namespace:Mandelbrot"
              x:Class="Mandelbrot.MandelbrotPage"
              SizeChanged="OnPageSizeChanged">
   <ContentPage.Padding>
@@ -10,8 +11,8 @@
 
   <ContentPage.Resources>
     <ResourceDictionary>
-      <x:BooleanNegationConverter x:Key="negate" />
-      <x:BaseTwoLogConverter x:Key="base2log" />
+      <toolkit:BooleanNegationConverter x:Key="negate" />
+      <toolkit:BaseTwoLogConverter x:Key="base2log" />
     </ResourceDictionary>
   </ContentPage.Resources>
 
