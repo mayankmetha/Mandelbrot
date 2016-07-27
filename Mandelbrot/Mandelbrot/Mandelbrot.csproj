@@ -37,6 +37,8 @@
   <ItemGroup>
     <Compile Include="App.cs" />
     <Compile Include="BitmapInfo.cs" />
+    <Compile Include="Complex.cs" />
+    <Compile Include="MandelbrotModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
