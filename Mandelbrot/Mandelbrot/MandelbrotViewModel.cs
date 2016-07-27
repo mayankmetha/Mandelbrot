@@ -132,7 +132,11 @@ namespace Mandelbrot
             set { SetProperty(ref iterations, value); }
             get { return iterations; }
         }
-        
+
+        // These two properties range from 0 to 1.
+        // They indicate a new center relative to the 
+        //  current width and height, which is the baseWidth
+        //  and baseHeight divided by CurrentMagnification.
         public double RealOffset
         {
             set
